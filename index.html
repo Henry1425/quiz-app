@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>President Quiz App</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <section class="intro">
+        <h1>Presidential Quotes Quiz</h1>
+        <p>
+            Do you think you got what it takes to match each of these famous quotes to the president who said them? It's time to put your presidential knowledge to the test!
+        </p>
+        <p>
+            Click the button below to start your quiz.
+        </p>
+        <div class="wrapper">
+            <button id="startButton">Start the quiz!!</button>
+        </div>
+    </section>
+
+    <section class="questions">
+        <h2 id="prompt">"One man with courage is a majority."</h2>
+        <div id="choices">
+            <input class="option" type="radio" value="0" name="option">Thomas Jefferson
+            <br>
+            <input class="option" type="radio" value="0" name="option">Andrew Jackson
+            <br>
+            <input class="option" type="radio" value="0" name="option">John Adams
+            <br>
+        </div>
+
+        <h3 id="questionNumberDisplay"></h3>
+    </section>
+
+    <section class="results">
+        <h2>Final Score : <span id="result">12/12</span></h2>
+        <h3>Here are your answers:</h3>
+        <div id="result_msg"></div>
+        <h4>
+            Would you like to play again? Click the button below.
+        </h4>
+        <div class="wrapper">
+            <button id="againButton">Try again</button>
+        </div>
+    </section>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script type="text/javascript" src='js/app.js'></script>
+</body>
+
+</html>
